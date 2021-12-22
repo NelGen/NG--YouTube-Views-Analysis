@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# config files
+api_keys.py
+testimage.png
+Data/image_df.pickle
+image_df.pickle

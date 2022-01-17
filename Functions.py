@@ -21,9 +21,9 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 
 # Model and Tokenizer Load
-model = load_model(r'Data\model.h5')
-model.load_weights(r'Data\model_weights.h5')
-tokenizer = pickle.load(open(r'Data\tfidf_fit.pickle','rb'))
+# model = load_model(r'Data\model.h5')
+# model.load_weights(r'Data\model_weights.h5')
+# tokenizer = pickle.load(open(r'Data\tfidf_fit.pickle','rb'))
 
 ##############################################
 #  Data Cleaning and Visualization Functions
@@ -224,10 +224,13 @@ def visualizer(user_input):
     ax.set_title('Average Views By Word')
     ax.set_xlabel('Average Views')
     ax.set_ylabel('Word')
-    plt.show()
+    return fig
     
 # Returns the predicted number of views
 def view_predict(user_input):
+    tokenizer = pickle.load(open(r'Data\tfidf_fit.pickle','rb'))
+    model = load_model(r'Data\model.h5')
+    model.load_weights(r'Data\model_weights.h5')
     transformed = tokenizer.transform([user_input])
     prediction = model.predict(transformed.todense())
     return round(prediction[0][0])

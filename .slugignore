@@ -1,0 +1,17 @@
+# Files to ignore for app
+*.ipynb
+/Images
+api_keys.py
+all_stats.p
+countries_df.pickle
+country_codes.csv
+game_df.pickle
+grammed.pickle
+grammed_df.pickle
+matchup_df.pickle
+one_words.pickle
+padded_sequences.pickle
+player_df.pickle
+players_cleaned_df.pickle
+players_df.pickle
+sc2races_df.pickle

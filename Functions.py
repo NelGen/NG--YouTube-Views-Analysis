@@ -6,17 +6,17 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import matplotlib.image as mpimg
 import seaborn as sns
-#import nltk
-#from nltk.corpus import stopwords
+import nltk
+from nltk.corpus import stopwords
 import string
 import re
-#from nltk import word_tokenize, FreqDist
+from nltk import word_tokenize, FreqDist
 from sklearn.feature_extraction.text import CountVectorizer
 
 import tensorflow as tf
 from tensorflow import keras
-#from tensorflow.keras.preprocessing.text import Tokenizer
-#from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 from keras.models import load_model
 

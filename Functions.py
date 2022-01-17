@@ -20,11 +20,6 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 from keras.models import load_model
 
-# Model and Tokenizer Load
-# model = load_model(r'Data\model.h5')
-# model.load_weights(r'Data\model_weights.h5')
-# tokenizer = pickle.load(open(r'Data\tfidf_fit.pickle','rb'))
-
 ##############################################
 #  Data Cleaning and Visualization Functions
 ##############################################

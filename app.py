@@ -30,6 +30,7 @@ if submit:
     col1, col2 = st.columns(2)
     col1.pyplot(visualizer(user_input))
     
+    
 
 # Pulls pre generated graphs for review
 st.subheader("Other Select Visualizations From YouTube Analysis")

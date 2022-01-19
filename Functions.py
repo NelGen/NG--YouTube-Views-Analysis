@@ -224,8 +224,7 @@ def visualizer(user_input):
 # Returns the predicted number of views
 def view_predict(user_input):
     tokenizer = pickle.load(open(r'Data\tfidf_fit.pickle','rb'))
-    model = load_model(r'Data\model.h5')
-    model.load_weights(r'Data\model_weights.h5')
+    model = load_model(r'Data\model_mae_iqr.h5')
     transformed = tokenizer.transform([user_input])
     prediction = model.predict(transformed.todense())
     return round(prediction[0][0])

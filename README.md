@@ -38,19 +38,19 @@ Most of the visualizations created below used data corresponding to key words pu
 
 The video length is measured in minutes.  Video's longer than 90 minutes usually generate less than average views.  The highest views are found in videos less than 90 minutes.
 
-![header] (App Images/Views By Video Length.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Views%20By%20Video%20Length.png)
 
 #### 2. Views By Video Game
 
 StarCraft 1 leads the average number of views by a substantial amount followed by StarCraft 2.  All other featured games average less than 100,000 views.
 
-![header] (App Images/Average Views Per Game.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Average%20Views%20Per%20Game.png)
 
 #### 3. Views By Certain Key Words (Capitalized vs Normal Case)
 
 We selected some words we felt would better engage someone to view a video and compared their fully capitalized versions to the word written normally.  Words like "pro" and "cheese" generate much higher views than if they were fully capitalized.  Words like "MOST", "BUILD", and "RUSH" generate higher views when fully capitalized.
 
-![header] (App Images/Average Views By Certain Key Words.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Average%20Views%20By%20Certain%20Key%20Words.png)
 
 ### SC2 Specific Visualizations
 
@@ -60,7 +60,7 @@ This list of players were active during the StayAtHome Story Cup # 4, taking pla
 
 On top of the list rivalling Serral, known as one of the greatest of all time, is Florencio who is known for strategies outside the norm.
 
-![header] (App Images/Average Views By SC2 Player.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Average%20Views%20By%20SC2%20Player.png)
 
 #### 5.  Views By Pro Player's SC2 Race
 
@@ -68,13 +68,13 @@ Considering that the recent SC2 world champions and Lowko play Zerg, it's no sur
 
 * Z = Zerg, T = Terran, P = Protoss
 
-![header] (App Images/Average Views By Player's SC2 Race.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Average%20Views%20By%20Player's%20SC2%20Race.png)
 
 #### 6.  Views By SC2 Matchups
 
 Similarly, matchups featuring Zerg also generage the highest views.  Protoss matches are typically defensive with few engagements throughout the game.
 
-![header] (App Images/Average Views By SC2 Matchups.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Average%20Views%20By%20SC2%20Matchups.png)
 
 ## Modeling
 
@@ -88,7 +88,7 @@ Results:
 * Train RMSE: 92,474 (86% of Avg Views)
 * Test RMSE: 80,133 (75% of Avg Views)
 
-![header] (App Images/Base_Model.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Base_Model.png)
 
 ### 2. Best Model With Loss MAE and Outliers Removed
 
@@ -99,7 +99,7 @@ Results:
 * Train RMSE: 24,838 (29% of Avg Views)
 * Test RMSE: 30,935 (36% of Avg Views)
 
-![header] (App Images/Best_Model.png)
+![header] (https://github.com/NelGen/NG-YouTube-Views-Analysis/blob/main/App%20Images/Best_Model.png)
 
 ## Views Predictor App
 
